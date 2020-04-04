@@ -110,28 +110,6 @@
       font-weight: 500;
       font-size: 1.99em;
     }
-    div:before{
-        content: '';
-        animation: animate infinite  8s;
-    }
-    @keyframes animate{
-        0%{
-            content: " A Graphics Designer";
-            color: blue;
-        }
-        20%{
-            content: 'An aspiring Web Developer';
-            color: crimson;
-        }
-        40%{
-            content: ' A Front end developer';
-            color: darkcyan;
-        }
-        60%{
-            content: 'A Designer';
-            color: darkmagenta;
-        }
-    }
   
   .jumbotron {
     margin-bottom: 0;
