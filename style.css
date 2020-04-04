@@ -31,7 +31,6 @@
   
   .nav > .nav-links {
     display: inline;
-    float: right;
     font-size: 18px;
   }
   
@@ -66,7 +65,7 @@
     .nav > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
       background-color: rgba(0, 0, 0, 0.3);
     }
-    .nav > .nav-btn > label > span {
+    .nav > .nav-btn > label > div {
       display: block;
       width: 25px;
       height: 10px;
